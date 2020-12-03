@@ -339,6 +339,38 @@ a {
     margin-bottom: 30px;
 }
 
+.clients {
+    padding: 94px 0;
+}
+
+.clients-title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: var(--font-weight-secondary);
+    font-size: 36px;
+    line-height: 1.1667;
+    letter-spacing: 0.03em;
+}
+
+.clients-list {
+    display: flex;
+    align-items: center;
+}
+
+.clients-list-item {
+    width: 170px;
+    height: 90px;
+    display: block;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.clients-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
 /*end section worker*/
 
 /*footer*/
@@ -346,7 +378,6 @@ a {
 .footer-main {
     background: #2F303A;
     width: 100%;
-    display: flex;
     padding: 60px 0;
 }
 
@@ -355,8 +386,11 @@ a {
     flex-direction: column;
 }
 
-.logotype-footer {
+.footer-main .container {
     display: flex;
+}
+
+.logotype-footer {
     width: 145px;
     font-family: var(--font-secondary);
     font-weight: var(--font-weight-secondary);
@@ -407,6 +441,20 @@ a {
     text-decoration: none;
 }
 
+.invitation {
+    font-family: var(--font-main);
+    font-weight: var(--font-weight-secondary);
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.social-link {
+    margin-left: 70px;
+}
+
 /*PORTFOLIO PAGE*/
 
 .product-list {
@@ -426,6 +474,10 @@ a {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.project-list-item:hover, .project-list-item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project-list-item {
