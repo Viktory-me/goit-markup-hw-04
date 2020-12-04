@@ -144,13 +144,16 @@ a {
 /* HERO BEGINNING*/
 
 .hero-section {
-    background-color: #2F303A;
     width: 100%;
     display: flex;
     padding-top: 200px;
     padding-bottom: 200px;
     align-items: center;
     justify-content: center;
+    background-image: url(/images/background.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .banner {
