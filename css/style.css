@@ -212,6 +212,13 @@ a {
     padding: 94px 0 0;
 }
 
+.about-icon-container {
+    width: 220px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+}
+
 .about-list {
     display: flex;
     align-items: center;
@@ -381,11 +388,7 @@ a {
     margin-right: 30px;
 }
 
-.icon-clients {
-    width: ;
-    height: ;
-}
-
+.icon-clients
 /*end section worker*/
 
 /*footer*/
