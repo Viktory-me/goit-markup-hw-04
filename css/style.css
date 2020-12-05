@@ -212,12 +212,14 @@ a {
     padding: 94px 0 0;
 }
 
-.about-icon-container {
+/*.about-icon-container {
     width: 220px;
     padding-top: 25px;
     padding-bottom: 25px;
     justify-content: center;
-}
+    margin-bottom: 30px;
+    background-image: url(../images/symbol-defs.svg#icon-antenna);
+}*/
 
 .about-list {
     display: flex;
@@ -232,8 +234,33 @@ a {
 .about-title-item:not(:last-child) {
     margin-right: 30px;
 }
-
+.about-title-item::before {
+    
+    display: block;
+    height: 120px;
+    content: "";
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+   
+   
+}
+.icon-antenna::before {
+    background-image: url("/images/antenna.svg");
+}
+.icon-clock::before {
+    background-image: url("/images/clock.svg");
+}
+.icon-diagram::before {
+    background-image: url("/images/diagram.svg");
+}
+.icon-astronavt::before {
+    background-image: url("/images/astronaut.svg");
+}
 .about-title-idea {
+    margin-top: 30px;
     margin-bottom: 10px;
     font-weight: var(--font-weight-secondary);
     font-size: 14px;
