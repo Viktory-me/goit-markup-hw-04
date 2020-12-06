@@ -93,8 +93,13 @@ a {
 
 .header-mail {
     margin-right: 50px;
+       display: flex;
+    align-items: center;
 }
-
+.header-tel {
+   display: flex;
+    align-items: center;
+}
 .header .logotype-header {
     margin-right: 93px;
 }
@@ -109,9 +114,12 @@ a {
     color: black;
 }
 
-.navigation-list-link:hover, .navigation-list-link:focus, .header-mail:hover, .header-mail:focus, .header-tel:hover, .header-tel:focus {
-    color: var(--accent-color);
-}
+.navigation-list-link:hover, 
+.navigation-list-link:focus, 
+.header-mail:hover, .header-mail:focus, 
+.header-tel:hover, .header-tel:focus 
+ { color: var(--accent-color);
+    }
 
 .logotype-header {
     width: 145px;
@@ -134,10 +142,26 @@ a {
 .header-mail, .header-tel {
     color: #757575;
 }
+.link-tel  {
+     width: 16px;
+  height: 12px;
+  margin-right: 10px;
+   fill: #757575;
+}
+.link-tel:hover, .link-tel:focus,
+.link-mail:hover, .link-mail:focus {
+    fill: var(--accent-color);
+}
+.link-mail {
+      width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: #757575;
+}
 
 .current {
-    color: var(--accent-color);
-}
+    color: var(--accent-color); }
+
 
 /*end HEADER*/
 
@@ -212,14 +236,7 @@ a {
     padding: 94px 0 0;
 }
 
-/*.about-icon-container {
-    width: 220px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    justify-content: center;
-    margin-bottom: 30px;
-    background-image: url(../images/symbol-defs.svg#icon-antenna);
-}*/
+
 
 .about-list {
     display: flex;
@@ -401,20 +418,34 @@ a {
 .clients-list {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .clients-list-item {
-    width: 170px;
+       width: 170px;
     height: 90px;
     display: block;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    text-align: center;
+ padding: 20px 0;
+ 
 }
 
 .clients-list-item:not(:last-child) {
     margin-right: 30px;
 }
+.client-link:hover, .client-link:focus {
+    color: var(--accent-color);
+   
+}
 
+.client-icon {
+    display: inline-block;
+      max-width: 80px;
+      max-height: 52px;
+      fill: currentColor;
+}
 
 /*end section worker*/
 
