@@ -524,10 +524,12 @@ a {
     color: #FFFFFF;
 }
 
-.social-link {
+.social-link-list {
     margin-left: 70px;
 }
-
+.social-links {
+    display: flex;
+}
 /*PORTFOLIO PAGE*/
 
 .product-list {
