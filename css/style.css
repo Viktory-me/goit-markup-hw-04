@@ -344,7 +344,24 @@ a {
 .worker-groupe-list {
     display: flex;
     align-items: center;
-    height: 368px;
+       color: #757575;
+    text-decoration: none;
+}
+
+.worker-groupe-list .social-link-item {
+    color: #757575;
+    font-weight: normal;
+}
+.worker-groupe-list .social-link-item:hover, 
+.worker-groupe-list .social-link-item:focus {
+color: white;
+}
+.worker-groupe-list .social-links {
+        fill: currentColor;
+        margin-bottom: 29px;
+        justify-content: center;
+        margin-top: 0px;
+        
 }
 
 .worker-groupe-item {
@@ -377,6 +394,7 @@ a {
 }
 
 .worker-element {
+    color: black;
     min-width: 151px;
     font-weight: 500;
     font-size: 16px;
@@ -394,7 +412,7 @@ a {
     letter-spacing: 0.03em;
     color: #757575;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 
 .clients {
@@ -416,6 +434,7 @@ a {
     display: flex;
     align-items: center;
     cursor: pointer;
+    margin-bottom: 30px;
 }
 
 .clients-list-item:not(:last-child) {
@@ -537,6 +556,7 @@ a {
     margin-right: 10px;
 }
 .social-link-item {
+    color: white;
     display: flex;
    align-items: center;
    justify-content: center;
